@@ -1,0 +1,61 @@
+body {
+  font-family: EB Garamond, Georgia, serif;
+  color:darkslategray;
+  background-color: floralwhite;
+}
+
+h1 {
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 82pt;
+  color: #913626;
+  line-height: 100%;
+  padding: 50px 0 0 20px;
+}
+h2 {
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 56pt;
+  color: #2D674A;
+  line-height: 30%;
+  padding: 0 0 25px 40px;
+}
+h3 {
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 32px;
+  color:#2a4a3a;
+}
+
+a {
+  cursor: crosshair;
+}
+a:link, a:visited {
+  color: #913626;
+  text-decoration: underline;
+}
+a:hover {
+  color: #93635b;
+  text-decoration: none;
+}
+a:active {
+  color: #d78c7e;
+}
+
+.about {
+  padding: 30px 0 0 0;
+  font-size: 18pt;
+}
+
+.work {
+  padding: 0 0 20px 10px;
+  font-size: 16pt;
+}
+
+.work-item {
+  padding: 8px 0 0 10px;
+}
+
+a[href^="mailto:"]::before {
+  content: "";
+}
+a[href^="mailto:"]:hover::after {
+  content: " over email!";
+}
