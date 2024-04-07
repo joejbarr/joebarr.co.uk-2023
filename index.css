@@ -1,27 +1,31 @@
+@font-face { font-family: Coconat; src: url('fonts/Coconat/Coconat-Regular.woff2'); }
+@font-face { font-family: CoconatDemi; src: url('fonts/Coconat/Coconat-Demi.woff2'); }
+@font-face { font-family: SourceSerif; src: url('fonts/SourceSerif4-Regular.otf.woff2'); }
+
 body {
-  font-family: EB Garamond, Georgia, serif;
-  color:darkslategray;
-  background-color: floralwhite;
+  font-family: 'SourceSerif', EB Garamond, Georgia, serif;
+  color:rgb(41, 39, 38);
+  background-color: #fffef8;
 }
 
 h1 {
-  font-family: 'Fredoka One', sans-serif;
+  font-family: 'Coconat', san-serif;
   font-size: 82pt;
-  color: #913626;
+  color: #2a2a2a;
   line-height: 100%;
   padding: 50px 0 0 20px;
 }
 h2 {
-  font-family: 'Fredoka One', sans-serif;
+  font-family: 'Coconat', sans-serif;
   font-size: 56pt;
-  color: #2D674A;
+  color: #494949;
   line-height: 30%;
   padding: 0 0 25px 40px;
 }
 h3 {
-  font-family: 'Fredoka One', sans-serif;
+  font-family: 'CoconatDemi', sans-serif;
   font-size: 32px;
-  color:#2a4a3a;
+  color:#494949;
 }
 
 a {
